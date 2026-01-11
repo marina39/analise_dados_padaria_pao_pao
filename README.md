@@ -1,4 +1,4 @@
-# 📊 Dashboard de Gestão: Cafeteria Valenet
+# 📊 Dashboard de Gestão: Padaria Pão & Pão
 
 Este projeto consiste em um pipeline completo de dados (ETL), abrangendo desde a extração de fontes heterogêneas, tratamento de inconsistências técnicas, modelagem em banco de dados relacional (MySQL) até a visualização executiva no Power BI.
 
