@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nome": "Joel",
+    "deletado": false,
+    "dt_delete": null
+  },
+  {
+    "id": 2,
+    "nome": "Manoel",
+    "deletado": false,
+    "dt_delete": null
+  },
+  {
+    "id": 3,
+    "nome": "Samuel",
+    "deletado": false,
+    "dt_delete": null
+  },
+  {
+    "id": 4,
+    "nome": "Daniel",
+    "deletado": true,
+    "dt_delete": "2024-11-12T10:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "nome": "Manuel",
+    "deletado": false,
+    "dt_delete": null
+  },
+  {
+    "id": 6,
+    "nome": "Daniel",
+    "deletado": false,
+    "dt_delete": null
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "cliente_id": 1,
+    "dt_inicio_assinatura": "2025-01-01T13:00:00.000Z",
+    "dt_fim_assinatura": "2025-02-05T15:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "cliente_id": 3,
+    "dt_inicio_assinatura": "2025-02-13T13:45:00.000Z",
+    "dt_fim_assinatura": null
+  },
+  {
+    "id": 3,
+    "cliente_id": 4,
+    "dt_inicio_assinatura": "2025-02-09T09:45:00.000Z",
+    "dt_fim_assinatura": "2025-02-10T12:32:00.000Z"
+  },
+  {
+    "id": 4,
+    "cliente_id": 6,
+    "dt_inicio_assinatura": "2025-02-13T07:12:31.000Z",
+    "dt_fim_assinatura": null
+  },
+  {
+    "id": 5,
+    "cliente_id": 5,
+    "dt_inicio_assinatura": "2025-02-09T09:45:00.000Z",
+    "dt_fim_assinatura": "2025-03-31T12:32:00.000Z"
+  }
+]
