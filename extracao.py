@@ -1,4 +1,5 @@
 from config import get_engine
+from dotenv import load_dotenv
 import pandas as pd
 import requests
 import os
@@ -6,6 +7,7 @@ import io
 
 # --- CONFIGURAÇÃO DE CAMINHOS ---
 pasta_entrada = 'entrada'
+load_dotenv()
 
 # --- 1. EXTRAÇÃO DO MENU (CSV) ---
 caminho_menu = os.path.join(pasta_entrada, 'menu.csv')
@@ -51,7 +53,7 @@ df_menu['preco_reais'] = df_menu['preco_reais'].astype(float)
 
 
 # 2 --- EXTRAÇÃO DE CLIENTES (JSON) ---
-url_clientes = 'https://valenet-io.github.io/desafio-analista-dados/dados/clientes.json'
+url_clientes = os.getenv('URL_CLIENTES')
 response_clientes = requests.get(url_clientes)
 response_clientes.raise_for_status()
 
@@ -104,7 +106,7 @@ else:
 # print(df_clientes.head())
 
 # 3 --- EXTRAÇÃO DE MEMBROS (JSON) ---
-url_mebros = 'https://valenet-io.github.io/desafio-analista-dados/dados/membros.json'
+url_mebros = os.getenv('URL_MEMBROS')
 response_membros = requests.get(url_mebros)
 response_membros.raise_for_status()
 
@@ -153,7 +155,7 @@ df_membros['cliente_id'] = df_membros['cliente_id'].astype(int)
 # print(df_membros.head())
 
 # 4 ---  EXTRAÇÃO DE VENDAS (HTML) ---
-url_vendas = 'https://valenet-io.github.io/desafio-analista-dados/dados/Vendas.html'
+url_vendas = os.getenv('URL_VENDAS')
 tabelas = pd.read_html(url_vendas)
 df_vendas = tabelas[0].copy()
 
