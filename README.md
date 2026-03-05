@@ -39,6 +39,12 @@ O dashboard foi projetado para oferecer duas camadas de análise:
 * **Visão Executiva:** KPIs de faturamento, volume de vendas e taxa de conversão de membros.
 * **Visão Operacional:** Tabela de detalhamento de pedidos com navegação de página e filtros sincronizados.
 
+
+<img width="1129" height="629" alt="image" src="https://github.com/user-attachments/assets/f0c555b0-bf3c-4872-818c-041bef10de89" />
+
+<img width="1128" height="627" alt="image" src="https://github.com/user-attachments/assets/e8667591-bed2-42f3-8015-638eb29284aa" />
+
+
 ---
 
 ## 🚀 Como Executar
